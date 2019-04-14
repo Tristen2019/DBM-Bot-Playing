@@ -1,0 +1,19 @@
+{
+  "name": "Game-Set",
+  "temp": "",
+  "event-type": "1",
+  "_id": "rniGC",
+  "actions": [
+    {
+      "info": "3",
+      "storage": "1",
+      "varName2": "server_count",
+      "name": "Store Bot Client Info"
+    },
+    {
+      "gameName": "${tempVars(\"server_count\")} servers | .help",
+      "gameLink": "",
+      "name": "Set Bot Game"
+    }
+  ]
+}
